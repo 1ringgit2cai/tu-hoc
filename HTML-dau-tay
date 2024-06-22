@@ -27,7 +27,7 @@
     />
     <form>
       <div>
-        <label> Điền tên bạn vào đây </label>
+        <label> Muốn hỏi thì ghi vào đây </label>
         <input type="text" placeholders="My name is..." />
       </div>
       <div>
@@ -42,6 +42,15 @@
         <input type="radio" name="dep" /> Đẹp
         <input type="radio" name="dep" /> Đẹp chứ gì nữa
       </div>
+      <footer>
+      <h3>
+        Contact
+        </h3>
+        <ul>
+          <li>Email:pehoday@gmail.com</li>
+          <li>Fb:https://www.facebook.com/1ringgit2cai</li>
+        </ul>
+      </footer>
       <div>
         <button>Bấm vào đây cho viên kẹo</button>
       </div>
