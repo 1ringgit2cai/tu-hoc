@@ -28,7 +28,7 @@
     <form>
       <div>
         <label> Muốn hỏi thì ghi vào đây </label>
-        <input type="text" placeholders="My name is..." />
+        <input type="text" placeholders="Ở đây nèee" />
       </div>
       <div>
         <select>
