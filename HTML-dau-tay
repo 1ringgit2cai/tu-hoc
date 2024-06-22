@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Trang Đài</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Trang Đài</h1>
+    <h2>8-9-2003</h2>
+    <span> Hôm nay là 22/6/2024 </span>
+
+    <div>
+      <a href="https://aisia.vn">AISIA Lab Website</a>
+    </div>
+    <img
+      src="https://tse2.mm.bing.net/th?id=OIP.0jNtyLKeD0TNqRkcj0STZQHaEK&pid=Api&P=0&h=180"
+    />
+    <form>
+      <input type="text" />
+    </form>
+  </body>
+</html>
