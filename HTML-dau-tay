@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
 
-    <title>Trang Đài</title>
+    <title>Nguyễn Ngọc Trang Đài</title>
 
     <!-- The website stylesheet -->
     <link rel="stylesheet" href="/style.css" />
@@ -14,19 +14,40 @@
     <script src="/script.js" defer></script>
   </head>
   <body>
-    <h1>Trang Đài</h1>
+    <h1>Hinho, Trang Đài đã thấy bạn</h1>
     <h2>8-9-2003</h2>
-    <span> Hôm nay là 22/6/2024 </span>
-
+    <span> Sở thích của tui</span>
+    <ul>
+      <li>Ăn</li>
+      <li>Ngủ</li>
+    </ul>
+    <img
+      width="350"
+      src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/425503477_2115367242180859_4947574311837399335_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFag2bWtUzoVoTdijhITheWKptnfNnUlnkqm2d82dSWeQU0YvYakEozaNQ8PUVsgR5atCjRiOpy-y4GmWC9I4Ta&_nc_ohc=UYQhRMachKgQ7kNvgH_AqcT&_nc_ht=scontent.fsgn21-1.fna&oh=00_AYDnvmKgFTmkVRlTi264--YoBy2M8Fgzoj_LFTkkGvBvvA&oe=667C71EC"
+    />
+    <form>
+      <div>
+        <label> Điền tên bạn vào đây </label>
+        <input type="text" placeholders="My name is..." />
+      </div>
+      <div>
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div>
+        <label> Trang Đài đẹp gái không </label>
+        <input type="radio" name="dep" /> Đẹp
+        <input type="radio" name="dep" /> Đẹp chứ gì nữa
+      </div>
+      <div>
+        <button>Bấm vào đây cho viên kẹo</button>
+      </div>
+    </form>
     <div>
       <a href="https://aisia.vn">AISIA Lab Website</a>
     </div>
-    <img
-      src="https://tse2.mm.bing.net/th?id=OIP.0jNtyLKeD0TNqRkcj0STZQHaEK&pid=Api&P=0&h=180"
-    />
-    <form>
-      <label> Điền tên bạn vào đây </label>
-      <input type="text" />
-    </form>
   </body>
 </html>
