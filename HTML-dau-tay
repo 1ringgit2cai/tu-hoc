@@ -25,6 +25,7 @@
       src="https://tse2.mm.bing.net/th?id=OIP.0jNtyLKeD0TNqRkcj0STZQHaEK&pid=Api&P=0&h=180"
     />
     <form>
+      <label> Điền tên bạn vào đây </label>
       <input type="text" />
     </form>
   </body>
