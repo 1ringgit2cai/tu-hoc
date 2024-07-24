@@ -2,61 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
 
     <title>Nguyễn Ngọc Trang Đài</title>
 
-    <!-- The website stylesheet -->
     <link rel="stylesheet" href="/style.css" />
 
-    <!-- The website JavaScript file -->
     <script src="/script.js" defer></script>
+    <style>
+      h1 {
+        color: Pink;
+      }
+      #top {
+        text-align: center;
+      }
+      .wrapper {
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hi nho, Trang Đài đã thấy bạn</h1>
-    <h2>8-9-2003</h2>
-    <span> Sở thích của tui</span>
-    <ul>
-      <li>Ăn</li>
-      <li>Ngủ</li>
-    </ul>
-    <img
-      width="350"
-      src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/425503477_2115367242180859_4947574311837399335_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFag2bWtUzoVoTdijhITheWKptnfNnUlnkqm2d82dSWeQU0YvYakEozaNQ8PUVsgR5atCjRiOpy-y4GmWC9I4Ta&_nc_ohc=UYQhRMachKgQ7kNvgH_AqcT&_nc_ht=scontent.fsgn21-1.fna&oh=00_AYDnvmKgFTmkVRlTi264--YoBy2M8Fgzoj_LFTkkGvBvvA&oe=667C71EC"
-    />
-    <form>
-      <div>
-        <label> Muốn hỏi thì ghi vào đây </label>
-        <input type="text" placeholders="Ở đây nèee" />
+    <div class="container">
+      <div id="top">
+        <h1>Hi nho, Trang Đài đã thấy bạn</h1>
+        <p>Tính vào đây ngó gì !?</p>
+        <div class="wrapper">
+          <div id="main">
+            <h2>Giới thiệu về tui</h2>
+            <p>8-9-2003</p>
+            <span> Sở thích của tui</span>
+            <ul>
+              <li>Hibicus</li>
+              <li>Người dùng giấc ngủ</li>
+            </ul>
+            <img
+              width="250"
+              src="https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/451590593_2161575554226694_6975638489869094314_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=lrgNHaC56isQ7kNvgGGQSK6&_nc_ht=scontent.fhan3-4.fna&oh=00_AYCO38z0RRj8feuiLOjoD9cyufUT-3qK1CJUATOnYjJVtw&oe=66A65A2F"
+            />
+            <form>
+              <div>
+                <label> Muốn hỏi thì ghi vào đây </label>
+                <input type="text" placeholders="Ở đây nèee" />
+              </div>
+              <div>
+                <select>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div>
+                <label> Trang Đài đẹp gái không </label>
+                <input type="radio" name="dep" /> Đẹp
+                <input type="radio" name="dep" /> Đẹp chứ gì nữa
+              </div>
+              <footer>
+                <h3>Contact với Tdai ở đây</h3>
+                <ul>
+                  <li>Email:pehoday@gmail.com</li>
+                  <li>
+                    Fb:
+                    <a href="https://www.facebook.com/1ringgit2cai"
+                      >1ringgit2cai</a
+                    >
+                  </li>
+                </ul>
+              </footer>
+              <div>
+                <button>Bấm vào đây cho viên kẹo</button>
+              </div>
+            </form>
+            <h3>Reference</h3>
+            <div>
+              <a href="https://aisia.vn">AISIA Lab Website</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <select>
-          <option>Male</option>
-          <option>Female</option>
-          <option>Other</option>
-        </select>
-      </div>
-      <div>
-        <label> Trang Đài đẹp gái không </label>
-        <input type="radio" name="dep" /> Đẹp
-        <input type="radio" name="dep" /> Đẹp chứ gì nữa
-      </div>
-      <footer>
-      <h3>
-        Contact
-        </h3>
-        <ul>
-          <li>Email:pehoday@gmail.com</li>
-          <li>Fb: <a href="https://www.facebook.com/1ringgit2cai">1ringgit2cai</a></li>
-        </ul>
-      </footer>
-      <div>
-        <button>Bấm vào đây cho viên kẹo</button>
-      </div>
-    </form>
-    <div>
-      <a href="https://aisia.vn">AISIA Lab Website</a>
     </div>
   </body>
 </html>
