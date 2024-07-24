@@ -9,7 +9,7 @@
 
     <script src="/script.js" defer></script>
     <style>
-      h1 {
+      h1, h2 {
         color: Pink;
       }
       #top {
@@ -18,6 +18,11 @@
       .wrapper {
         text-align: left;
       }
+      html {
+	background: url('https://i.pinimg.com/564x/d0/02/34/d0023476838d38e649a9a147753dc930.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    }
     </style>
   </head>
   <body>
@@ -28,8 +33,8 @@
         <div class="wrapper">
           <div id="main">
             <h2>Giới thiệu về tui</h2>
-            <p>8-9-2003</p>
-            <span> Sở thích của tui</span>
+            <p>Day of birth: 8-9-2003</p>
+            <span>Mah Favorite ><</span>
             <ul>
               <li>Hibicus</li>
               <li>Người dùng giấc ngủ</li>
@@ -58,12 +63,17 @@
               <footer>
                 <h3>Contact với Tdai ở đây</h3>
                 <ul>
-                  <li>Email:pehoday@gmail.com</li>
+                  <li>Email: pehoday@gmail.com</li>
                   <li>
-                    Fb:
+                    Facebook:
                     <a href="https://www.facebook.com/1ringgit2cai"
                       >1ringgit2cai</a
                     >
+                    <li>
+                      Instagram:
+                      <a href="https://www.instagram.com/trang.radio/"
+                      >trangradio</a>
+                    </li>
                   </li>
                 </ul>
               </footer>
