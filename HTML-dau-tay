@@ -23,6 +23,9 @@
 	background-size: cover;
 	background-repeat: no-repeat;
     }
+    .picture {
+      text-align: center;
+    }
     </style>
   </head>
   <body>
@@ -39,10 +42,12 @@
               <li>Hibicus</li>
               <li>Người dùng giấc ngủ</li>
             </ul>
+            <div class="picture">
             <img
               width="250"
               src="https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/451590593_2161575554226694_6975638489869094314_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=lrgNHaC56isQ7kNvgGGQSK6&_nc_ht=scontent.fhan3-4.fna&oh=00_AYCO38z0RRj8feuiLOjoD9cyufUT-3qK1CJUATOnYjJVtw&oe=66A65A2F"
             />
+            </div>
             <form>
               <div>
                 <label> Muốn hỏi thì ghi vào đây </label>
